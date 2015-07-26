@@ -46,19 +46,19 @@ public class CSharpReader {
             String read = fileScanner.nextLine();
             if (read.contains("class")) {
                 dataModel.setModelName(parseName(read, "class"));
-            } else if (read.contains("int?")) {
+            } else if (read.contains("public") && read.contains("int?")) {
                 dataModel.addModelObject(parseName(read, "int?"), "int?");
-            } else if (read.contains("int")) {
+            } else if (read.contains("public") && read.contains("int")) {
                 dataModel.addModelObject(parseName(read, "int"), "int");
-            } else if (read.contains("bool")) {
+            } else if (read.contains("public") && read.contains("bool")) {
                 dataModel.addModelObject(parseName(read, "bool"), "boolean");
-            } else if (read.contains("bool?")) {
+            } else if (read.contains("public") && read.contains("bool?")) {
                 dataModel.addModelObject(parseName(read, "bool?"), "boolean");
-            } else if (read.contains("string")) {
+            } else if (read.contains("public") && read.contains("string")) {
                 dataModel.addModelObject(parseName(read, "string"), "string");
-            } else if (read.contains("string?")) {
+            } else if (read.contains("public") && read.contains("string?")) {
                 dataModel.addModelObject(parseName(read, "string?"), "string");
-            } else if(read.contains("List")) {
+            } else if(read.contains("public") && read.contains("List")) {
                 String listName = parseListName(read, "List");
                 String listType = parseListType(read);
                 dataModel.addModelObject(listName, "list", listType);

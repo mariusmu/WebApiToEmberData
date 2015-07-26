@@ -49,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CSharpReader.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CSharpReader.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/no/registrermeg/EmberDataGenerator/CSharpReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="26.896551">
-              <caret line="62" column="52" selection-start-line="62" selection-start-column="52" selection-end-line="62" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.33570158">
+              <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,10 +78,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmberScheme.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EmberScheme.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/no/registrermeg/EmberDataGenerator/EmberScheme.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3158784">
+            <state vertical-scroll-proportion="0.0">
               <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
               <folding />
             </state>
@@ -196,7 +196,6 @@
         <option value="$PROJECT_DIR$/src/main/java/no/registrermeg/EmberDataGenerator/CamelCaseFormatter.java" />
         <option value="$PROJECT_DIR$/src/main/java/no/registrermeg/EmberDataGenerator/EmberScheme.java" />
         <option value="$PROJECT_DIR$/src/main/java/no/registrermeg/EmberDataGenerator/Type.java" />
-        <option value="$PROJECT_DIR$/src/main/java/no/registrermeg/EmberDataGenerator/CSharpReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/no/registrermeg/EmberDataGenerator/EmberDataModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/no/registrermeg/EmberDataGenerator/EmberDataModelObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/no/registrermeg/EmberDataGenerator/EmberDataGenerator.java" />
@@ -204,6 +203,7 @@
         <option value="$PROJECT_DIR$/src/main/java/no/registrermeg/EmberDataGenerator/Formatter.java" />
         <option value="$PROJECT_DIR$/src/main/java/no/registrermeg/EmberDataGenerator/TypeHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/no/registrermeg/EmberDataGenerator/BelongsTo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/no/registrermeg/EmberDataGenerator/CSharpReader.java" />
       </list>
     </option>
   </component>
@@ -716,12 +716,12 @@
       <option name="number" value="Default" />
       <updated>1437912210856</updated>
       <workItem from="1437912215066" duration="8089000" />
-      <workItem from="1437924639782" duration="11545000" />
+      <workItem from="1437924639782" duration="12371000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19634000" />
+    <option name="totallyTimeSpent" value="20460000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -941,16 +941,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/no/registrermeg/EmberDataGenerator/CSharpReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="26.896551">
-          <caret line="62" column="52" selection-start-line="62" selection-start-column="52" selection-end-line="62" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/no/registrermeg/EmberDataGenerator/EmberDataGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1012,9 +1002,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/no/registrermeg/EmberDataGenerator/EmberScheme.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3158784">
+        <state vertical-scroll-proportion="0.0">
           <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/registrermeg/EmberDataGenerator/CSharpReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33570158">
+          <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
