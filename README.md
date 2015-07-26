@@ -13,6 +13,7 @@ The program looks for string, int, bool and List, and can be nullable (?) option
 * int -> number,
 * bool -> boolean,
 * List<Type> -> hasMany('type')
+* NOTE: Date Not yet implemented
 
 ### Licence
 Apache Common
