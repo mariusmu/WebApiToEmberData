@@ -7,5 +7,13 @@ Program to transform ASP.NET Web Api Models to Ember Data Models easy. In Java (
 The last to arguments are optional and should be used if DS.belongsTo is needed.
 
 ### Types
-All the types ar
+The program looks for string, int, bool and List, and can be nullable (?) optionally
+
+* string -> string,
+* int -> number,
+* bool -> boolean,
+* List<Type> -> hasMany('type')
+* 
+### Licence
+Apache Common
 
