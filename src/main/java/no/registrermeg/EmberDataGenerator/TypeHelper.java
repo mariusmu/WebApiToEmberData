@@ -17,11 +17,17 @@ public class TypeHelper {
 
         if (type.equals("string")) return new Type("string", 2);
         if (type.equals("int")) return new Type("number", 1);
+        if (type.equals("int?")) return new Type("number", 1);
         if (type.equals("boolean")) return new Type("boolean", 3);
         if (type.equals("boolean?")) return new Type("boolean", 3);
-        if (type.equals("int?")) return new Type("number", 1);
         if (type.equals("string?")) return new Type("string", 2);
         if (type.equals("string?")) return new Type("List", 3);
+        if (type.equals("double")) return new Type("number", 3);
+        if (type.equals("double?")) return new Type("number", 3);
+        if (type.equals("float")) return new Type("number", 3);
+        if (type.equals("float?")) return new Type("number", 3);
+        if (type.equals("decimal")) return new Type("number", 3);
+        if (type.equals("decimal?")) return new Type("number", 3);
 
         return null;
     }

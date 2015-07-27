@@ -50,6 +50,18 @@ public class CSharpReader {
                 dataModel.addModelObject(parseName(read, "int?"), "int?");
             } else if (read.contains("public") && read.contains("int")) {
                 dataModel.addModelObject(parseName(read, "int"), "int");
+            } else if (read.contains("public") && read.contains("decimal")) {
+                dataModel.addModelObject(parseName(read, "decimal"), "decimal");
+            } else if (read.contains("public") && read.contains("decimal?")) {
+                dataModel.addModelObject(parseName(read, "decimal?"), "decimal?");
+            } else if (read.contains("public") && read.contains("float")) {
+                dataModel.addModelObject(parseName(read, "float"), "float");
+            } else if (read.contains("public") && read.contains("float?")) {
+                dataModel.addModelObject(parseName(read, "float?"), "float?");
+            } else if (read.contains("public") && read.contains("double")) {
+                dataModel.addModelObject(parseName(read, "double"), "double");
+            } else if (read.contains("public") && read.contains("double?")) {
+                dataModel.addModelObject(parseName(read, "double?"), "double?");
             } else if (read.contains("public") && read.contains("bool")) {
                 dataModel.addModelObject(parseName(read, "bool"), "boolean");
             } else if (read.contains("public") && read.contains("bool?")) {
