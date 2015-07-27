@@ -1,4 +1,4 @@
-package no.registrermeg.EmberDataGenerator;
+package no.mkmedia.EmberDataGenerator;
 
 /**
  * A helper class for the types

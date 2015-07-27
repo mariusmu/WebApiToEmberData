@@ -1,4 +1,4 @@
-package no.registrermeg.EmberDataGenerator;
+package no.mkmedia.EmberDataGenerator;
 
 /**
  * A small class to keep the belongsTo in order

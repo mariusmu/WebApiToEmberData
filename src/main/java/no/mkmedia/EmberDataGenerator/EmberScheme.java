@@ -1,4 +1,4 @@
-package no.registrermeg.EmberDataGenerator;
+package no.mkmedia.EmberDataGenerator;
 
 /**
  * Few, but the most important static strings to help make the output file

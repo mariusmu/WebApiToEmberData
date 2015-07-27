@@ -1,4 +1,4 @@
-package no.registrermeg.EmberDataGenerator;
+package no.mkmedia.EmberDataGenerator;
 
 /**
  * An attribute used in an Ember Data model

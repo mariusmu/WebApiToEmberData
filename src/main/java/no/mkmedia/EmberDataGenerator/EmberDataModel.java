@@ -1,4 +1,4 @@
-package no.registrermeg.EmberDataGenerator;
+package no.mkmedia.EmberDataGenerator;
 
 import java.util.ArrayList;
 
